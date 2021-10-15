@@ -38,6 +38,6 @@
 ## Contributors
 
 <a href="https://sengkue.github.io/about-skv/">
-<img src="#" /> SengKueVang</a>
+<img src="#" /> S</a>
 
 > Want to contribute? Just do a pull request with your changes. We'll review them and merge them
