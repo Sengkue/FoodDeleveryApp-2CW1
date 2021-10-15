@@ -37,7 +37,7 @@
 
 ## Contributors
 
-<a href="https://simonielmusyoki.com/">
-<img src="https://avatars0.githubusercontent.com/u/30719875?s=460&u=042137abc36ce6d5e72f0a8b00b0393bd2025adc&v=4" width="50" style="border-radius: 50%;" /> Simoniel Musyoki</a>
+<a href="https://sengkue.github.io/about-skv/">
+<img src="https://avatars0.githubusercontent.com/u/30719875?s=460&u=042137abc36ce6d5e72f0a8b00b0393bd2025adc&v=4" width="50" style="border-radius: 50%;" /> SengKueVang</a>
 
 > Want to contribute? Just do a pull request with your changes. We'll review them and merge them
