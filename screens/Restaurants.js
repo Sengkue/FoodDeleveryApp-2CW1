@@ -123,21 +123,8 @@ const Restaurants = ({route, navigation}) => {
 
                 </View>
 
-                <TouchableOpacity style={{
-                    width: 50,
-                    paddingRight: SIZES.padding * 2,
-                    justifyContent: "center"
-                }}>
-                    <Image 
-                        source={icons.list}
-                        resizeMode="contain"
-                        style={{
-                            width: 30,
-                            height: 30,
-                            justifyContent: "center"
-                        }}
-                    />
-                </TouchableOpacity>
+               
+               
             </View>
         )
     }
@@ -325,7 +312,7 @@ const Restaurants = ({route, navigation}) => {
                         borderBottomWidth: 1
                     }}>
                         <Text style={{...FONTS.h3}}> { getBasketItemCount() } Items in the Cart</Text>
-                        <Text style={{...FONTS.h3}}> ${ sumOrder()}</Text>
+                        <Text style={{...FONTS.h3}}> ₭{ sumOrder()}</Text>
                     </View>
 
                     <View style={{
@@ -346,7 +333,7 @@ const Restaurants = ({route, navigation}) => {
                                     tintColor: COLORS.darkgray
                                 }}
                             />
-                            <Text style={{ marginLeft: SIZES.padding, ...FONTS.h4}} >{currentLocation?.streetName}</Text>
+                            <Text style={{ marginLeft: SIZES.padding, ...FONTS.h1}} >{currentLocation?.streetName}</Text>
                         </View>
                         <View style={{ flexDirection: 'row'}}>
                             <Image

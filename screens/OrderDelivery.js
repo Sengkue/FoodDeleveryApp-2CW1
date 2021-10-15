@@ -272,7 +272,7 @@ const OrderDelivery = ({ route, navigation }) => {
                         <View style={{ flex: 1, marginLeft: SIZES.padding }}>
                             {/* Name & Rating */}
                             <View style={{ flexDirection: 'row', justifyContent: 'space-between' }}>
-                                <Text style={{ ...FONTS.h4 }}>{restaurant?.courier.name}</Text>
+                                <Text style={{ ...FONTS.h3 }}>{restaurant?.courier.name}</Text>
                                 <View style={{ flexDirection: 'row' }}>
                                     <Image
                                         source={icons.star}

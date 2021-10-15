@@ -91,7 +91,7 @@ export const restaurantData = [
                 photo: images.crispy_chicken_burger,
                 description: "Burger with crispy chicken, cheese and lettuce",
                 calories: 200,
-                price: 10
+                price: 5000
             },
             {
                 menuId: 2,
@@ -99,7 +99,7 @@ export const restaurantData = [
                 photo: images.honey_mustard_chicken_burger,
                 description: "Crispy Chicken Burger with Honey Mustard Coleslaw",
                 calories: 250,
-                price: 15
+                price: 15000
             },
             {
                 menuId: 3,
@@ -107,7 +107,7 @@ export const restaurantData = [
                 photo: images.baked_fries,
                 description: "Crispy Baked French Fries",
                 calories: 194,
-                price: 8
+                price: 8000
             }
         ]
     },
@@ -134,7 +134,7 @@ export const restaurantData = [
                 photo: images.hawaiian_pizza,
                 description: "Canadian bacon, homemade pizza crust, pizza sauce",
                 calories: 250,
-                price: 15
+                price: 15000
             },
             {
                 menuId: 5,
@@ -142,7 +142,7 @@ export const restaurantData = [
                 photo: images.pizza,
                 description: "Fresh tomatoes, aromatic basil pesto and melted bocconcini",
                 calories: 250,
-                price: 20
+                price: 20000
             },
             {
                 menuId: 6,
@@ -150,7 +150,7 @@ export const restaurantData = [
                 photo: images.tomato_pasta,
                 description: "Pasta with fresh tomatoes",
                 calories: 100,
-                price: 10
+                price: 10000
             },
             {
                 menuId: 7,
@@ -158,7 +158,7 @@ export const restaurantData = [
                 photo: images.salad,
                 description: "Finely chopped lettuce, tomatoes, cucumbers",
                 calories: 100,
-                price: 10
+                price: 10000
             }
         ]
     },
@@ -185,7 +185,7 @@ export const restaurantData = [
                 photo: images.chicago_hot_dog,
                 description: "Fresh tomatoes, all beef hot dogs",
                 calories: 100,
-                price: 20
+                price: 20000
             }
         ]
     },
@@ -212,7 +212,7 @@ export const restaurantData = [
                 photo: images.sushi,
                 description: "Fresh salmon, sushi rice, fresh juicy avocado",
                 calories: 100,
-                price: 50
+                price: 50000
             }
         ]
     },
@@ -239,7 +239,7 @@ export const restaurantData = [
                 photo: images.kolo_mee,
                 description: "Noodles with char siu",
                 calories: 200,
-                price: 5
+                price: 5000
             },
             {
                 menuId: 11,
@@ -247,7 +247,7 @@ export const restaurantData = [
                 photo: images.sarawak_laksa,
                 description: "Vermicelli noodles, cooked prawns",
                 calories: 300,
-                price: 8
+                price: 8000
             },
             {
                 menuId: 12,
@@ -255,7 +255,7 @@ export const restaurantData = [
                 photo: images.nasi_lemak,
                 description: "A traditional Malay rice dish",
                 calories: 300,
-                price: 8
+                price: 8000
             },
             {
                 menuId: 13,
@@ -263,7 +263,7 @@ export const restaurantData = [
                 photo: images.nasi_briyani_mutton,
                 description: "A traditional Indian rice dish with mutton",
                 calories: 300,
-                price: 8
+                price: 8000
             },
 
         ]
@@ -292,7 +292,7 @@ export const restaurantData = [
                 photo: images.teh_c_peng,
                 description: "Three Layer Teh C Peng",
                 calories: 100,
-                price: 2
+                price: 2000
             },
             {
                 menuId: 13,
@@ -308,7 +308,7 @@ export const restaurantData = [
                 photo: images.kek_lapis,
                 description: "Layer cakes",
                 calories: 300,
-                price: 20
+                price: 20000
             }
         ]
 

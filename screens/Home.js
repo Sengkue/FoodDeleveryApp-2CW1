@@ -15,7 +15,7 @@ import {
     initialCurrentLocation,
     categoryData 
 } from '../data/restaurantData'
-import { icons, images, SIZES, COLORS, FONTS } from '../k';
+import { icons, images, SIZES, COLORS, FONTS } from '../constants';
 import { Colors } from 'react-native/Libraries/NewAppScreen';
 import { NavigationContainer } from '@react-navigation/native';
 
@@ -43,7 +43,7 @@ const Home = ({navigation}) => {
     function renderHeader(){
         return(
         <View style={{flexDirection:'row', height:50, marginTop: Platform.OS=="android" ? 35 : 0}}>
-            <TouchableOpacity
+           {/* <TouchableOpacity
                 style={{
                     width: 50,
                     height: "100%",
@@ -60,7 +60,7 @@ const Home = ({navigation}) => {
                     }}
                 />
 
-            </TouchableOpacity>
+            </TouchableOpacity> */}
             <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center'}}>
                     <View style={{
                         width: "70%",
@@ -73,7 +73,7 @@ const Home = ({navigation}) => {
                         <Text style={{ ...FONTS.h3}}>{initialCurrentLocation.streetName}</Text>
                     </View>
             </View>
-            <TouchableOpacity style={{
+            {/* <TouchableOpacity style={{
                 width: 50,
                 height: "100%",
                 paddingRight: SIZES.padding * 2,
@@ -87,7 +87,7 @@ const Home = ({navigation}) => {
                         height: 30
                     }}
                 />
-            </TouchableOpacity>
+            </TouchableOpacity> */}
         </View>
         )
     }
@@ -146,7 +146,7 @@ const Home = ({navigation}) => {
                     showsHorizontalScrollIndicator={false}
                     keyExtractor={item=> `${item.id}`}
                     renderItem={renderItem}
-                    contentContainerStyle={{ paddingVertical: SIZES.padding*2}}
+                    contentContainerStyle={{ paddingVertical: SIZES.padding*1}}
 
                     />
             </View>
@@ -165,6 +165,7 @@ const Home = ({navigation}) => {
                 })}
             >
                 <View>
+                    
                     <Image
                     source={item.photo}
                     resizeMode="cover"
@@ -243,7 +244,7 @@ const Home = ({navigation}) => {
                                             color: ( priceRating <= item.priceRating) ? COLORS.black : COLORS.darkgray  
                                             }}
                                         >
-                                            $
+                                            ₭
                                         </Text>
                                     )
                                 })

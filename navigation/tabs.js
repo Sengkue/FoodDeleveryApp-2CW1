@@ -188,7 +188,7 @@ const Tabs = () => {
                 }}
             />
 
-            {/* <Tab.Screen
+            <Tab.Screen
                 name="User"
                 component={Home}
                 options={{
@@ -209,7 +209,7 @@ const Tabs = () => {
                         />
                     )
                 }}
-            /> */}
+            />
         </Tab.Navigator>
     )
 }
