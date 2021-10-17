@@ -1,7 +1,7 @@
 import { icons, images} from '../constants'
 
 export const initialCurrentLocation = {
-    streetName: "Garden City Mall",
+    streetName: "Eat With Me",
     gps: {
         latitude: -1.232455,
         longitude: 36.878324
@@ -312,7 +312,45 @@ export const restaurantData = [
             }
         ]
 
-    }
+    },
+    // {
+
+    //     id: 7,
+    //     name: "Soup chicken",
+    //     rating: 4.9,
+    //     categories: [5, 8],
+    //     priceRating: affordable,
+    //     photo: images.soup,
+    //     duration: "30 - 40 min",
+    //     location: {
+    //         latitude: -1.343406,
+    //         longitude: 36.764942,
+    //     },
+    //     courier: {
+    //         avatar: images.avatar_1,
+    //         name: "Justin"
+    //     },
+    //     menu: [
+    //         {
+    //             menuId: 13,
+    //             name: "Teh C Peng",
+    //             photo: images.teh_c_peng,
+    //             description: "Three Layer Teh C Peng",
+    //             calories: 100,
+    //             price: 2000
+    //         },
+    //         {
+    //             menuId: 10,
+    //             name: "ABC Ice Kacang",
+    //             photo: images.ice_kacang,
+    //             description: "Shaved Ice with red beans",
+    //             calories: 100,
+    //             price: 3
+    //         },
+           
+    //     ]
+
+    // }
 
 
 ]

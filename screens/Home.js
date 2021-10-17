@@ -70,7 +70,7 @@ const Home = ({navigation}) => {
                         justifyContent: 'center',
                         borderRadius: SIZES.radius
                     }}>
-                        <Text style={{ ...FONTS.h3}}>{initialCurrentLocation.streetName}</Text>
+                        <Text style={{ ...FONTS.h1}}>{initialCurrentLocation.streetName}</Text>
                     </View>
             </View>
             {/* <TouchableOpacity style={{
@@ -123,6 +123,11 @@ const Home = ({navigation}) => {
                             height:30,
                             width: 30
                         }}
+
+
+
+
+                        
                         />
 
                     </View>
